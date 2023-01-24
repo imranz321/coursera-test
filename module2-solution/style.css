@@ -1,6 +1,6 @@
 /********** Base styles **********/
-* {
-  box-sizing: border-box;
+*{
+	box-sizing: border-box;
 }
 body{
 	font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +21,7 @@ section > article:nth-child(odd){
     width: 32%;
     position: relative;
 }
- .menu-details h3{
+.menu-details h3{
 	font-weight:bold;
     border: 1px solid black;
     padding: 5px;
@@ -47,7 +47,7 @@ section > article:nth-child(odd){
 	background-color:#E5D198;
 }
 .menu-details p{
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 /********** Medium devices (Tablet) **********/
