@@ -1,6 +1,6 @@
 header{
 	background-color:#999999;
-	padding:20px 0
+	padding:20px 15px;
 }
 #header a{
 	text-decoration:none;
@@ -12,7 +12,10 @@ header{
 	margin-top: 25px;
 	margin-bottom: 30px;
 }
-
+#main-content-food-llc{
+	background-color:#999999;
+	padding: 10px 15px 10px 15px;
+}
 
 
 /********** Base styles *********
