@@ -2,11 +2,8 @@ header{
 	background-color:#999999;
 	padding:20px 15px;
 }
-#header a{
-	text-decoration:none;
-	color:#000;
-	font-weight:bold;
-	font-size:28px;
+.navbar-brand{
+	font-size: 28px;
 }
 #our-menu-heading{
 	margin-top: 25px;
@@ -16,7 +13,33 @@ header{
 	background-color:#999999;
 	padding: 10px 15px 10px 15px;
 }
-
+@media (min-width: 992px ) {
+	#navbarSupportedContent{
+		display:none !important
+	}
+	
+}
+@media (max-width: 991px ) {
+	
+	header{
+		padding:20px 0 0 0;
+	}
+	#navbarSupportedContent{
+		display:block;
+		background:#fff
+	}
+	.navbar{
+		
+		padding-bottom:0
+	}
+	.navbar-toggler{
+		margin-bottom:10px
+	}
+	.navbar-nav li{
+		border:1px solid #000000
+	}
+	
+}
 
 /********** Base styles *********
 *{
